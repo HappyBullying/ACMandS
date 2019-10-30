@@ -10,9 +10,10 @@ namespace ACMandS
     {
         private Dictionary<int, string> commandsDesc = new Dictionary<int, string>();
         Stack<int> stack = new Stack<int>();
-        private int[] Memory;
+        private int[] MEMORY;
 
-        private int eax, ebx, ecx, edx;
+        private int eax, ebx, ecx, edx, esi, edi;
+        private int zf, cf;
 
         public event EventHandler MiandrEventHandler;
 
@@ -22,9 +23,11 @@ namespace ACMandS
             ebx = 0;
             ecx = 0;
             edx = 0;
-            Memory = new int[10000];
-            for (int i = 0; i < Memory.Length; i++)
-                Memory[i] = 0;
+            zf = 0;
+            cf = 0;
+            MEMORY = new int[65536];
+            for (int i = 0; i < MEMORY.Length; i++)
+                MEMORY[i] = 0;
         }
 
         public void ReadCommands(string filename)
@@ -68,13 +71,13 @@ namespace ACMandS
         }
 
 
-        private unsafe void HandlePointer(string elemName, int* ptr)
+        private unsafe void GetPointer(string elemName, int* ptr)
         {
             string tmp;
             if (elemName.Contains('['))
             {
                 tmp = elemName.Remove('[').Remove(']');
-                fixed(int* array = Memory)
+                fixed(int* array = MEMORY)
                 ptr = &Memory[Convert.ToInt32(tmp)];
             }
         }
