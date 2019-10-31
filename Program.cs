@@ -7,10 +7,8 @@ namespace ACMandS
 
         static unsafe void Main(string[] args)
         {
-            int[] t = { 1, 2, 4};
-            int* y = t;
-            fixed()
-            Console.WriteLine(*y);
+            ASM_Executor asm = new ASM_Executor();
+            asm.Run();
         }
     }
 }

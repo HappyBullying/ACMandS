@@ -9,49 +9,7 @@ namespace ACMandS
             {
                 int second = STACK.Pop();
                 int first = STACK.Pop();
-                int* ptrSecond = null;
-                int* ptrFirst = null;
-                /*I dont know what is inside stack*/
-                int? firstVal = null;
-                int? secondVal = null;
-                /*********************************/
-
-                if (!IsNumber(second))
-                    GetPointer(second, ptrSecond);
-                else
-                {
-                    secondVal = int.Parse(second);
-                }
-
-                if (!IsNumber(first))
-                    GetPointer(first, ptrFirst);
-                else
-                {
-                    firstVal = int.Parse(first);
-                }
-                int firstFinal = 0;
-                int secondFinal = 0;
-
-
-                if (firstVal == null)
-                {
-                    firstFinal = *ptrFirst;
-                }
-                else
-                {
-                    firstFinal = firstVal.Value;
-                }
-
-
-                if (secondVal == null)
-                {
-                    secondFinal = *ptrSecond;
-                }
-                else
-                {
-                    secondFinal = secondVal.Value;
-                }
-                STACK.Push((firstFinal - secondFinal).ToString());
+                STACK.Push(second + first);
                 return;
             }
 

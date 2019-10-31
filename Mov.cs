@@ -3,7 +3,7 @@ namespace ACMandS
 {
     partial class ASM_Executor
     {
-        public unsafe void Mov(string[] operands)
+        private unsafe void Mov(string[] operands)
         {
             int* first = null;
             int* second = null;
