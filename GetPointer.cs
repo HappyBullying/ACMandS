@@ -4,16 +4,25 @@ namespace ACMandS
 {
     partial class ASM_Executor
     {
-        private unsafe void GetPointer(string elemName, int* ptr)
+        private unsafe void GetPointer(string elemName, ref int* ptr)
         {
             string tmp;
             if (elemName.Contains('['))
             {
-                tmp = elemName.Remove('[').Remove(']');
-                int index = Convert.ToInt32(tmp);
+                tmp = elemName.Replace("[", "").Replace("]", "");
+
+                int parsedNum;
+                bool isNum = int.TryParse(tmp, out parsedNum);
+
+
+                if (!isNum)
+                {
+                    GetPointer(tmp, ref ptr);
+                    parsedNum = *ptr;
+                }
                 fixed (int* array = MEMORY)
                 {
-                    ptr = array + index;
+                    ptr = array + parsedNum;
                 }
                 return;
             }

@@ -1,0 +1,1790 @@
+mov [0], 16 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [1], 4 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [2], 3 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [3], 11 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [4], 1 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [5], 15 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [6], 7 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [7], 8 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [8], 2 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [9], 5 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [10], 10 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [11], 9 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [12], 6 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [13], 13 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [14], 12 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [15], 0 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov [16], 14 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp Ini_I eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov eax, 16 eax: 0 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp Ini_J eax: 16 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 16 ebx: 0 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 16 ebx: 1 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 1 ecx: 0 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 16 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 16 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 16 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 16 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 16 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 16 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 16 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 16 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 16 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 16 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 16 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 16 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 16 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 16 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 16 ebx: 15 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 16 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 16 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 16 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 16 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 16 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 16 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 15 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 15 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 15 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 15 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 15 ebx: 16 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 15 ebx: 1 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 1 ecx: 16 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 15 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 15 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 15 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 15 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 15 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 15 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 15 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 15 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 15 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 15 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 15 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 15 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 15 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 15 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 15 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 15 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 15 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 15 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 15 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 15 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 15 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 15 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 15 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 15 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 15 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 15 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 15 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 15 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 15 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 15 ebx: 14 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 15 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 15 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 15 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 15 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 15 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 15 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 14 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 14 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 14 ebx: 15 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 14 ebx: 1 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 1 ecx: 15 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 14 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 14 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 14 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 14 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 14 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 14 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 14 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 14 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 14 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 14 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 14 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 14 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 14 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 14 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 14 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 14 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 14 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 14 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 14 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 14 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 14 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 14 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 14 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 14 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 14 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 14 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 14 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 14 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 14 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 14 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 14 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 14 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 14 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 14 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 14 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 14 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 14 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 14 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 14 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 14 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 14 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 14 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 14 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 14 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 14 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 14 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 14 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 14 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 14 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 14 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 14 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 14 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 14 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 14 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 14 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 14 ebx: 13 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 14 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 14 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 14 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 14 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 14 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 14 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 13 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 13 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 13 ebx: 14 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 13 ebx: 1 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 1 ecx: 14 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 13 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 13 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 13 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 13 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 13 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 13 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 13 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 13 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 13 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 13 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 13 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 13 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 13 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 13 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 13 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 13 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 13 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 13 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 13 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 13 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 13 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 13 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 13 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 13 ebx: 12 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 13 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 13 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 13 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 13 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 13 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 13 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 12 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 12 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 12 ebx: 13 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 12 ebx: 1 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 1 ecx: 13 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 12 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 12 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 12 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 12 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 12 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 12 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 12 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 12 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 12 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 12 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 12 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 12 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 12 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 12 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 12 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 12 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 12 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 12 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 12 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 12 ebx: 11 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 12 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 12 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 12 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 12 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 12 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 12 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 11 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 11 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 11 ebx: 12 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 11 ebx: 1 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 1 ecx: 12 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 11 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 11 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 11 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 11 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 11 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 11 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 11 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 11 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 11 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 11 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 11 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 11 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 11 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 11 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 11 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 11 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 11 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 11 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 11 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 11 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 11 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 11 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 11 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 11 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 11 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 11 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 11 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 11 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 11 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 11 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 11 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 11 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 11 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 11 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 11 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 11 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 11 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 11 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 11 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 11 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 11 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 11 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 11 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 11 ebx: 10 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 11 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 11 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 11 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 11 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 11 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 11 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 10 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 10 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 10 ebx: 11 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 10 ebx: 1 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 1 ecx: 11 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 10 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 10 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 10 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 10 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 10 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 10 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 10 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 10 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 10 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 10 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 10 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 10 ebx: 9 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 10 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 10 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 10 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 10 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 10 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 10 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 9 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 9 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 9 ebx: 10 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 9 ebx: 1 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 1 ecx: 10 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 9 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 9 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 9 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 9 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 9 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 9 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 9 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 9 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 9 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 9 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 9 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 9 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 9 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 9 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 9 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 9 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 9 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 9 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 9 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 9 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 9 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 9 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 9 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 9 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 9 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 9 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 9 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 9 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 9 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 9 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 9 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 9 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 9 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 9 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 9 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 9 ebx: 8 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 9 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 9 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 9 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 9 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 9 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 9 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 8 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 8 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 8 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 8 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 8 ebx: 9 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 8 ebx: 1 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 8 ebx: 1 ecx: 9 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 8 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 8 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 8 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 8 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 8 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 8 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 8 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 8 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 8 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 8 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 8 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 8 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 8 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 8 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 8 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 8 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 8 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 8 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 8 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 8 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 8 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 8 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 8 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 8 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 8 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 8 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 8 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 8 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 8 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 8 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 8 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 8 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 8 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 8 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 8 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 8 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 8 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 8 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 8 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 8 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 8 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 8 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 8 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 8 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 8 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 8 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 8 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 8 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 8 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 8 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 8 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 8 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 8 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 8 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 8 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 8 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 8 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 8 ebx: 7 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 8 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 8 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 8 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 8 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 8 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 8 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 7 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 7 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 7 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 7 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 7 ebx: 8 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 7 ebx: 1 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 7 ebx: 1 ecx: 8 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 7 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 7 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 7 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 7 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 7 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 7 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 7 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 7 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 7 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 7 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 7 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 7 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 7 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 7 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 7 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 7 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 7 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 7 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 7 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 7 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 7 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 7 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 7 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 7 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 7 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 7 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 7 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 7 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 7 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 7 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 7 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 7 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 7 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 7 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 7 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 7 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 7 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 7 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 7 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 7 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 7 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 7 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 7 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 7 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 7 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 7 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 7 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 7 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 7 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 7 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 7 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 7 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 7 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 7 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 7 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 7 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 7 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 7 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 7 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 7 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 7 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 7 ebx: 6 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 7 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 7 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 7 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 7 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 7 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 7 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 6 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 6 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 6 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 6 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 6 ebx: 7 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 6 ebx: 1 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 6 ebx: 1 ecx: 7 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 6 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 6 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 6 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 6 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 6 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 6 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 6 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 6 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 6 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 6 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 6 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 6 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 6 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 6 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 6 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 6 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 6 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 6 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 6 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 6 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 6 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 6 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 6 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 6 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 6 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 6 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 6 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 6 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 6 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 6 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 6 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 6 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 6 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 6 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 6 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 6 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 6 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 6 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 6 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 6 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 6 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 6 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 6 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 6 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 6 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 6 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 6 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 6 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 6 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 6 ebx: 5 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 6 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 6 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 6 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 6 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 6 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 6 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 5 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 5 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 5 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 5 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 5 ebx: 6 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 5 ebx: 1 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 5 ebx: 1 ecx: 6 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 5 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 5 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 5 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 5 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 5 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 5 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 5 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 5 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 5 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 5 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 5 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 5 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 5 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 5 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 5 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 5 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 5 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 5 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 5 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 5 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 5 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 5 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 5 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 5 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 5 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 5 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 5 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 5 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 5 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 5 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 5 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 5 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 5 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 5 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 5 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 5 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 5 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 5 ebx: 4 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 5 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 5 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 5 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 5 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 5 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 5 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 4 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 4 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 4 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 4 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 4 ebx: 5 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 4 ebx: 1 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 4 ebx: 1 ecx: 5 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 4 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 4 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 4 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 4 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 4 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 4 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 4 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 4 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 4 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 4 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 4 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 4 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 4 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 4 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 4 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 4 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 4 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 4 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 4 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 4 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 4 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 4 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 4 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 4 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 4 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 4 ebx: 3 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 4 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 4 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 4 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 4 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 4 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 4 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 3 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 3 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 3 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 3 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 3 ebx: 4 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 3 ebx: 1 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 3 ebx: 1 ecx: 4 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 3 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ebx] eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+pop [ecx] eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp J_End eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ebx eax: 3 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push eax eax: 3 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push ebx eax: 3 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 3 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja If_State eax: 3 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 3 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 3 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 3 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 3 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 3 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 3 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 3 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 3 ebx: 2 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 3 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 3 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 3 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 3 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 3 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 3 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 2 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 2 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 2 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 2 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 2 ebx: 3 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 2 ebx: 1 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 2 ebx: 1 ecx: 3 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 2 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 2 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 2 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 2 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 2 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 2 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 2 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 2 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 2 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 2 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 2 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 2 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 2 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ebx, 1 eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+jmp If_State eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+mov ecx, ebx eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+inc ecx eax: 1 ebx: 1 ecx: 1 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ebx] eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+push [ecx] eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+cmp eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 0 cf: 0 sf: 0 of: 0
+ja Swap eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe J_End eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+inc ebx eax: 1 ebx: 1 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push ebx eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja If_State eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe I_End eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+dec eax eax: 1 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push eax eax: 0 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+push 0 eax: 0 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+cmp eax: 0 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+ja Ini_J eax: 0 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+jbe Exit eax: 0 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0
+nop eax: 0 ebx: 2 ecx: 2 edx: 0 esi: 0 edi: 0 zf: 1 cf: 1 sf: 0 of: 0

@@ -13,7 +13,23 @@ namespace ACMandS
                 second = STACK.Pop();
                 first = STACK.Pop();
             }
-            else
+            if (operands.Length == 1)
+            {
+                first = eax;
+                if (IsNumber(operands[0]))
+                {
+                    second = int.Parse(operands[0]);
+                }
+                else
+                {
+                    int* tmpS = null;
+                    GetPointer(operands[0], ref tmpS);
+                    second = *tmpS;
+                }
+            }
+
+
+            if (operands.Length == 2)
             {
                 if (IsNumber(operands[0]))
                 {
@@ -22,7 +38,7 @@ namespace ACMandS
                 else
                 {
                     int* tmpF = null;
-                    GetPointer(operands[0], tmpF);
+                    GetPointer(operands[0], ref tmpF);
                     first = *tmpF;
                 }
 
@@ -34,10 +50,11 @@ namespace ACMandS
                 else
                 {
                     int* tmpS = null;
-                    GetPointer(operands[1], tmpS);
+                    GetPointer(operands[1], ref tmpS);
                     second = *tmpS;
                 }
             }
+
 
             //JA
             if (first > second)
@@ -47,18 +64,6 @@ namespace ACMandS
                 return;
             }
 
-            //JGE
-            if (first >= second)
-            {
-                sf = of;
-                return;
-            }
-
-            //JL
-            if (first < second)
-            {
-                sf = of + 1;
-            }
 
             //JBE
             if (first <= second)

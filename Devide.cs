@@ -1,18 +1,29 @@
 ﻿
+using System.Diagnostics;
+
 namespace ACMandS
 {
     partial class ASM_Executor
     {
-        private void Devide(string fullstring, string retString, string[] operands)
+        private void Devide(string fullstring, ref string retString, ref string[] operands)
         {
             int firstSpace = fullstring.IndexOf(' ');
+            if (firstSpace == -1)
+            {
+                retString = fullstring;
+                operands = new string[0];
+                return;
+            }
+            retString = "";
             for (int i = 0; i < firstSpace; i++)
             {
                 retString += fullstring[i];
             }
             firstSpace++;
             string ops = fullstring.Substring(firstSpace);
-            string[] tmp = ops.Split(", ");
+            
+
+            operands = ops.Split(", ");
         }
     }
 }

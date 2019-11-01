@@ -6,7 +6,7 @@ namespace ACMandS
         private unsafe void Inc(string[] operands)
         {
             int* op = null;
-            GetPointer(operands[0], op);
+            GetPointer(operands[0], ref op);
             (*op)++;
         }
     }

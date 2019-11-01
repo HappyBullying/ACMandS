@@ -20,6 +20,12 @@ namespace ACMandS
             }
         }
 
+        private int Jz(int index, int next)
+        {
+            if (zf == 1)
+                return index;
+            return next;
+        }
         private int Jge(int index, int next)
         {
             if (sf == of)
