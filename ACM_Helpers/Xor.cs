@@ -1,16 +1,18 @@
 ﻿
+
 namespace ACMandS.ACM_Helpers
 {
     partial class ASM_Executor
     {
-        private unsafe void Add(string[] operands)
+        public unsafe void Xor(string[] operands)
         {
             if (operands.Length == 0)
             {
-                int second = STACK.Pop();
                 int first = STACK.Pop();
-                STACK.Push(first + second);
-                if (STACK.Peek() > 0)
+                int second = STACK.Pop();
+                first = first ^ second;
+                CheckParity(first);
+                if (first > 0)
                 {
                     sf = 0;
                 }
@@ -18,6 +20,11 @@ namespace ACMandS.ACM_Helpers
                 {
                     sf = 1;
                 }
+                if (first == 0)
+                    zf = 0;
+                cf = 0;
+                of = 0;
+                STACK.Push(first);
                 return;
             }
 
@@ -35,7 +42,8 @@ namespace ACMandS.ACM_Helpers
                     GetPointer(operands[0], ref tmp);
                     first = *tmp;
                 }
-                eax += first;
+                eax = eax ^ first;
+                CheckParity(eax);
                 if (eax > 0)
                 {
                     sf = 0;
@@ -44,6 +52,10 @@ namespace ACMandS.ACM_Helpers
                 {
                     sf = 1;
                 }
+                if (eax == 0)
+                    zf = 0;
+                cf = 0;
+                of = 0;
                 return;
             }
 
@@ -54,14 +66,16 @@ namespace ACMandS.ACM_Helpers
 
                 if (IsNumber(operands[1]))
                 {
-                    *first += int.Parse(operands[1]);
+                    *first = (*first) ^ int.Parse(operands[1]);
                 }
                 else
                 {
                     int* second = null;
                     GetPointer(operands[1], ref second);
-                    *first += (*second);
+                    *first = (*first) ^ (*second);
                 }
+
+                CheckParity(*first);
                 if (*first > 0)
                 {
                     sf = 0;
@@ -70,6 +84,10 @@ namespace ACMandS.ACM_Helpers
                 {
                     sf = 1;
                 }
+                if (*first == 0)
+                    zf = 0;
+                cf = 0;
+                of = 0;
                 return;
             }
 
@@ -80,19 +98,22 @@ namespace ACMandS.ACM_Helpers
                 int tmp = 0;
                 if (IsNumber(operands[1]))
                 {
-                    tmp = *first + int.Parse(operands[1]);
+                    tmp = (*first) ^ int.Parse(operands[1]);
                 }
                 else
                 {
                     int* second = null;
                     GetPointer(operands[1], ref second);
-                    tmp = (*first) + (*second);
+                    tmp = (*first) ^ (*second);
                 }
 
                 int* third = null;
                 GetPointer(operands[2], ref third);
                 *third = tmp;
-                if (*third > 0)
+
+
+                CheckParity(tmp);
+                if (tmp > 0)
                 {
                     sf = 0;
                 }
@@ -100,6 +121,10 @@ namespace ACMandS.ACM_Helpers
                 {
                     sf = 1;
                 }
+                if (tmp == 0)
+                    zf = 0;
+                cf = 0;
+                of = 0;
                 return;
             }
         }

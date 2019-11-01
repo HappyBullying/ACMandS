@@ -10,6 +10,14 @@ namespace ACMandS.ACM_Helpers
                 int second = STACK.Pop();
                 int first = STACK.Pop();
                 STACK.Push(second + first);
+                if (STACK.Peek() > 0)
+                {
+                    sf = 0;
+                }
+                else
+                {
+                    sf = 1;
+                }
                 return;
             }
 
@@ -28,6 +36,14 @@ namespace ACMandS.ACM_Helpers
                     first = *tmp;
                 }
                 eax -= first;
+                if (eax > 0)
+                {
+                    sf = 0;
+                }
+                else
+                {
+                    sf = 1;
+                }
                 return;
             }
 
@@ -46,6 +62,14 @@ namespace ACMandS.ACM_Helpers
                     GetPointer(operands[1], ref second);
                     *first -= (*second);
                 }
+                if (*first > 0)
+                {
+                    sf = 0;
+                }
+                else
+                {
+                    sf = 1;
+                }
                 return;
             }
 
@@ -56,8 +80,7 @@ namespace ACMandS.ACM_Helpers
                 int tmp = 0;
                 if (IsNumber(operands[1]))
                 {
-                    *first = *first - int.Parse(operands[1]);
-                    tmp = *first;
+                    tmp = *first - int.Parse(operands[1]);
                 }
                 else
                 {
@@ -69,6 +92,14 @@ namespace ACMandS.ACM_Helpers
                 int* third = null;
                 GetPointer(operands[2], ref third);
                 *third = tmp;
+                if (*third > 0)
+                {
+                    sf = 0;
+                }
+                else
+                {
+                    sf = 1;
+                }
                 return;
             }
         }

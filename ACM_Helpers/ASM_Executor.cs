@@ -12,7 +12,7 @@ namespace ACMandS.ACM_Helpers
         private Dictionary<string, int> LABELS = new Dictionary<string, int>();
         private int[] MEMORY;
         private int eax, ebx, ecx, edx, esi, edi;
-        private int zf, cf, sf, of;
+        private int zf, cf, sf, of, pf;
         private LinkedList<string> EXECUTED = new LinkedList<string>();
 
 
@@ -26,6 +26,7 @@ namespace ACMandS.ACM_Helpers
             cf = 0;
             sf = 0;
             of = 0;
+            pf = 0;
             MEMORY = new int[65536];
             for (int i = 0; i < MEMORY.Length; i++)
                 MEMORY[i] = 0;
@@ -179,7 +180,7 @@ namespace ACMandS.ACM_Helpers
             Console.Write(EXECUTED.Count + 1);
             Console.WriteLine("********************************");
             Console.WriteLine("command: " + command + " eax: " + eax + " ebx: " + ebx + " ecx: " + ecx + " edx: " + edx);
-            Console.WriteLine("esi: " + esi + " edi: " + edi + " zf: " + zf + " cf: " + cf + " sf: " + sf + " of: " + of);
+            Console.WriteLine("esi: " + esi + " edi: " + edi + " zf: " + zf + " cf: " + cf + " sf: " + sf + " of: " + of + " pf: " + pf);
             Console.WriteLine("*********************************");
             Console.WriteLine();
             string text = command;
@@ -193,6 +194,7 @@ namespace ACMandS.ACM_Helpers
             text += " cf: " + cf;
             text += " sf: " + sf;
             text += " of: " + of;
+            text += " pf: " + pf;
             EXECUTED.AddLast(text);
         }
 

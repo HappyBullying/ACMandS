@@ -8,6 +8,15 @@ namespace ACMandS.ACM_Helpers
             int* op = null;
             GetPointer(operands[0], ref op);
             (*op)++;
+            if (*op > 0)
+            {
+                sf = 0;
+            }
+            else
+            {
+                sf = 1;
+            }
+            CheckParity(*op);
         }
     }
 }
