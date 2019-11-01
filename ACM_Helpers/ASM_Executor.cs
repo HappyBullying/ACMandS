@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 
 
-namespace ACMandS
+namespace ACMandS.ACM_Helpers
 {
     partial class ASM_Executor
     {
@@ -16,7 +16,7 @@ namespace ACMandS
         private LinkedList<string> EXECUTED = new LinkedList<string>();
 
 
-        public ASM_Executor()
+        public ASM_Executor(string pathToFile)
         {
             eax = 0;
             ebx = 0;
@@ -31,7 +31,7 @@ namespace ACMandS
                 MEMORY[i] = 0;
 
 
-            ReadCommands(@"G:/GitRepos/ACMandS/right_pr2.asm");
+            ReadCommands(pathToFile);
             DeleteFirstSpace();
             DefineLabels();
 

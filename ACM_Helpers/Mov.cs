@@ -1,5 +1,5 @@
 ﻿
-namespace ACMandS
+namespace ACMandS.ACM_Helpers
 {
     partial class ASM_Executor
     {

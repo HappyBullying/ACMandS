@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ACMandS
+﻿
+namespace ACMandS.ACM_Helpers
 {
     partial class ASM_Executor
     {

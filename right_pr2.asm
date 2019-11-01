@@ -17,7 +17,7 @@ _start:
     mov [15], 0
     mov [16], 14
 
-    jmp Ini_I
+    jmp Ini_I;start sorting
 
 Ini_I:
     mov eax, 16d

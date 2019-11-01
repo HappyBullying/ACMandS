@@ -1,15 +1,15 @@
 ﻿
-namespace ACMandS
+namespace ACMandS.ACM_Helpers
 {
     partial class ASM_Executor
     {
-        private unsafe void Sub(string[] operands)
+        private unsafe void Add(string[] operands)
         {
             if (operands.Length == 0)
             {
                 int second = STACK.Pop();
                 int first = STACK.Pop();
-                STACK.Push(second + first);
+                STACK.Push(first + second);
                 return;
             }
 
@@ -27,7 +27,7 @@ namespace ACMandS
                     GetPointer(operands[0], ref tmp);
                     first = *tmp;
                 }
-                eax -= first;
+                eax += first;
                 return;
             }
 
@@ -38,13 +38,13 @@ namespace ACMandS
 
                 if (IsNumber(operands[1]))
                 {
-                    *first -= int.Parse(operands[1]);
+                    *first += int.Parse(operands[1]);
                 }
                 else
                 {
                     int* second = null;
                     GetPointer(operands[1], ref second);
-                    *first -= (*second);
+                    *first += (*second);
                 }
                 return;
             }
@@ -56,14 +56,13 @@ namespace ACMandS
                 int tmp = 0;
                 if (IsNumber(operands[1]))
                 {
-                    *first = *first - int.Parse(operands[1]);
-                    tmp = *first;
+                    *first = *first + int.Parse(operands[1]);
                 }
                 else
                 {
                     int* second = null;
                     GetPointer(operands[1], ref second);
-                    tmp = (*first) - (*second);
+                    tmp = (*first) + (*second);
                 }
 
                 int* third = null;

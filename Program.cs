@@ -1,4 +1,5 @@
 ﻿using System;
+using ACMandS.ACM_Helpers;
 
 namespace ACMandS
 {
@@ -7,7 +8,7 @@ namespace ACMandS
 
         static unsafe void Main(string[] args)
         {
-            ASM_Executor asm = new ASM_Executor();
+            ASM_Executor asm = new ASM_Executor(@"G:/GitRepos/ACMandS/right_pr2.asm");
             asm.Run();
         }
     }
