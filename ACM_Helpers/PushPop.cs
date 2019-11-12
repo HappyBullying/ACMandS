@@ -11,14 +11,14 @@ namespace ACMandS.ACM_Helpers
                 return;
             }
             int* digit = null;
-            GetPointer(operands[0], ref digit);
+            GetPointer(operands[0], out digit);
             STACK.Push(*digit);
         }
 
         private unsafe void Pop(string[] operands)
         {
             int* digit = null;
-            GetPointer(operands[0], ref digit);
+            GetPointer(operands[0], out digit);
             *digit = STACK.Pop();
         }
     }

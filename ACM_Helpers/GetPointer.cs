@@ -4,8 +4,9 @@ namespace ACMandS.ACM_Helpers
 {
     partial class ASM_Executor
     {
-        private unsafe void GetPointer(string elemName, ref int* ptr)
+        private unsafe void GetPointer(string elemName, out int* ptr)
         {
+            ptr = null;
             string tmp;
             if (elemName.Contains('['))
             {
@@ -17,7 +18,7 @@ namespace ACMandS.ACM_Helpers
 
                 if (!isNum)
                 {
-                    GetPointer(tmp, ref ptr);
+                    GetPointer(tmp, out ptr);
                     parsedNum = *ptr;
                 }
                 fixed (int* array = MEMORY)

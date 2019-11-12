@@ -3,7 +3,7 @@ namespace ACMandS.ACM_Helpers
 {
     partial class ASM_Executor
     {
-        private void Devide(string fullstring, ref string retString, ref string[] operands)
+        private void Divide(string fullstring, ref string retString, ref string[] operands)
         {
             int firstSpace = fullstring.IndexOf(' ');
             if (firstSpace == -1)

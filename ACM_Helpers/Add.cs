@@ -32,7 +32,7 @@ namespace ACMandS.ACM_Helpers
                 else
                 {
                     int* tmp = null;
-                    GetPointer(operands[0], ref tmp);
+                    GetPointer(operands[0], out tmp);
                     first = *tmp;
                 }
                 eax += first;
@@ -50,7 +50,7 @@ namespace ACMandS.ACM_Helpers
             if (operands.Length == 2)
             {
                 int* first = null;
-                GetPointer(operands[0], ref first);
+                GetPointer(operands[0], out first);
 
                 if (IsNumber(operands[1]))
                 {
@@ -59,7 +59,7 @@ namespace ACMandS.ACM_Helpers
                 else
                 {
                     int* second = null;
-                    GetPointer(operands[1], ref second);
+                    GetPointer(operands[1], out second);
                     *first += (*second);
                 }
                 if (*first > 0)
@@ -76,7 +76,7 @@ namespace ACMandS.ACM_Helpers
             if (operands.Length == 3)
             {
                 int* first = null;
-                GetPointer(operands[0], ref first);
+                GetPointer(operands[0], out first);
                 int tmp = 0;
                 if (IsNumber(operands[1]))
                 {
@@ -85,12 +85,12 @@ namespace ACMandS.ACM_Helpers
                 else
                 {
                     int* second = null;
-                    GetPointer(operands[1], ref second);
+                    GetPointer(operands[1], out second);
                     tmp = (*first) + (*second);
                 }
 
                 int* third = null;
-                GetPointer(operands[2], ref third);
+                GetPointer(operands[2], out third);
                 *third = tmp;
                 if (*third > 0)
                 {

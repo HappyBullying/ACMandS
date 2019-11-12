@@ -43,6 +43,7 @@ namespace ACMandS.ACM_Helpers
                     }
                     COMMANDS[i] = COMMANDS[i].Remove(0, last);
                 }
+                COMMANDS[i] = COMMANDS[i].Replace("\t", "");
             }
         }
 

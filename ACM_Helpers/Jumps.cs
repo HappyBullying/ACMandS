@@ -50,6 +50,13 @@ namespace ACMandS.ACM_Helpers
             }
         }
 
+        private int Jne(int index, int next)
+        {
+            if (zf == 0)
+                return index;
+            return next;
+        }
+
         private int Jbe(int index, int next)
         {
             if (cf == 1 && zf == 1)

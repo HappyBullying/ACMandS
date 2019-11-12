@@ -58,7 +58,7 @@ namespace ACMandS.ACM_Helpers
             for (int i = 1; i < MEMORY[0] + 1; i++)
                 Console.WriteLine(MEMORY[i]);
 
-            StreamWriter wr = new StreamWriter(@"G:/GitRepos/ACMandS/out.txt", false);
+            StreamWriter wr = new StreamWriter("../ACMandS/out.txt", false);
             foreach (var elen in EXECUTED)
                 wr.WriteLine(elen);
             wr.Close();
@@ -74,7 +74,7 @@ namespace ACMandS.ACM_Helpers
             LogCommandAndState(cm);
             string command = "";
             string[] operands = new string[0];
-            Devide(cm, ref command, ref operands);
+            Divide(cm, ref command, ref operands);
 
 
             switch (command)
@@ -146,6 +146,12 @@ namespace ACMandS.ACM_Helpers
                     {
                         int _param_next = LABELS[operands[0]];
                         next = Jbe(_param_next, next);
+                        break;
+                    }
+                    case "jne":
+                    {
+                        int _param_next = LABELS[operands[0]];
+                        next = Jne(_param_next, next);
                         break;
                     }
                 case "jz":

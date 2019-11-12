@@ -7,8 +7,8 @@ namespace ACMandS.ACM_Helpers
         {
             int* first = null;
             int* second = null;
-            GetPointer(operands[0], ref first);
-            GetPointer(operands[1], ref second);
+            GetPointer(operands[0], out first);
+            GetPointer(operands[1], out second);
 
             int tmp;
             if (!int.TryParse(operands[1], out tmp))

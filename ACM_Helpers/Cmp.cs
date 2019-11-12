@@ -23,7 +23,7 @@ namespace ACMandS.ACM_Helpers
                 else
                 {
                     int* tmpS = null;
-                    GetPointer(operands[0], ref tmpS);
+                    GetPointer(operands[0], out tmpS);
                     second = *tmpS;
                 }
             }
@@ -38,7 +38,7 @@ namespace ACMandS.ACM_Helpers
                 else
                 {
                     int* tmpF = null;
-                    GetPointer(operands[0], ref tmpF);
+                    GetPointer(operands[0], out tmpF);
                     first = *tmpF;
                 }
 
@@ -50,7 +50,7 @@ namespace ACMandS.ACM_Helpers
                 else
                 {
                     int* tmpS = null;
-                    GetPointer(operands[1], ref tmpS);
+                    GetPointer(operands[1], out tmpS);
                     second = *tmpS;
                 }
             }

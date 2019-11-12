@@ -6,7 +6,7 @@ namespace ACMandS.ACM_Helpers
         private unsafe void Not(string[] operands)
         {
             int* operandPtr = null;
-            GetPointer(operands[0], ref operandPtr);
+            GetPointer(operands[0], out operandPtr);
 
             if ((*operandPtr) == 0)
             {
